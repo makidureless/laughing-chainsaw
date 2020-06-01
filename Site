@@ -1,0 +1,444 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: 'Abril Fatface', cursive;
+	background: url(../image/coffee-1276778_1920.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+}
+
+@media screen and (min-width:768px) {
+
+.Titulo1{
+	color: white;
+	font: cursive;
+	font-size: 200px;
+	text-align: left;
+	left: 200px;
+	margin-top: 700px;
+	position: absolute;
+}
+
+.Titulo1:hover{
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 2px black;
+}
+
+#Cuadro_Imagen{
+	width: 90%;
+	height: 90%;
+	background: black;
+	overflow: hidden;
+	margin: auto;
+}
+
+.Imagen1{
+	width: 100%;
+	height: 100%;
+}
+
+.Cuadro0{
+	height: 100%;
+	width: 90%;
+	background: url(../image/4536.jpg);
+	margin: auto;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+
+.Texto1{
+	color: white;
+	font-size: 100px;
+	text-align: left;
+	white-space: nowrap;
+	overflow-y: auto;
+	transform: translateX(2250px);
+	animation-name: movement;
+	animation-duration: 15s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+	animation-play-state: running;
+}
+
+@keyframes movement{
+	From{
+		transform: translateX(2250px);
+	}
+	To{
+		transform: translateX(-2250px);
+	}
+}
+
+.after-banner {
+	padding-top: 60px;
+}
+
+.after-banner .ab-item {
+	max-width: 360px;
+	margin: auto;
+}
+
+.after-banner .ab-item h3 {
+	margin-top: 0;
+	font-size: 60px;
+	float: left;
+}
+
+.after-banner .ab-item  p {
+	font-size: 18px;
+	line-height: 24px;
+	box-sizing: border-box;
+}
+
+
+.Linea1{
+	width: 1360px;
+	height: 1300px;
+	margin: 0px auto;
+	position: relative;
+}
+
+.Cuadro1{
+	background: #9B724A;
+	width: 500px;
+	height: 500px;
+	float: left;
+	opacity: 0.8;
+}
+
+.Titulo0{
+	margin: auto;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+	padding-top: 40px;
+}
+
+.Titulo0:hover{
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 1px black;
+}
+
+.P1{
+	color: black;
+	font-size: 16px;
+	text-align: left;
+	box-sizing: border-box;
+	padding: 65px 50px;
+	float: left;
+}
+
+.Leermas{
+	color: red;
+	font-size: 16px;
+	text-align: right;
+	right: -50px
+}
+
+.Imagendiv1{
+	width: 860px;
+	height: 500px;
+	margin: 0;
+	float: left;
+}
+
+.imagen1{
+	width: 860px;
+	height: 500px;
+	float: left;
+}
+
+.Imagendiv1:hover .imagen1 {
+	transform: scale(1.4);
+	opacity: 0,5;
+	cursor: pointer;
+}
+
+.Cuadro2{
+	width: 70px;
+	height: 70px;
+	background: #9B724A;
+	position: absolute;
+	top: 250px;
+	left: 465px;
+	opacity: 0.8;
+}
+
+
+.Imagendiv2{
+	width: 1360px;
+	height: 768px;
+	margin: auto;
+	float: left;
+}
+
+.imagen2{
+	width: 1360px;
+	height: 768px;
+	float: left;
+}
+
+.Imagendiv2:hover .imagen2 {
+	transform: scale(1.4);
+	opacity: 0,5;
+	cursor: pointer;
+}
+
+.Cuadro3{
+	background: #9B724A;
+	width: 450px;
+	height: 300px;
+	position: absolute;
+	top: 750px;
+	Left: 900px;
+	opacity: 0.8;
+}
+
+.P2{
+	color: black;
+	font-size: 16px;
+	text-align: left;
+	box-sizing: border-box;
+	padding: 45px 50px;
+	float: left;
+}
+.Leermas2{
+	color:red;
+	font-size: 16px;
+	text-align: right;
+	padding: 30px;
+}
+
+.Linea3{
+	width: 1360px;
+	height: 500px;
+	margin: 0px auto;
+	position: relative;
+}
+
+.Imagendiv3{
+	width: 1200px;
+	height: 800px;
+	float: left;
+	top: auto;
+}
+
+.imagen3{
+	width: 1200px;
+	height: 800px;
+	float: left;
+	top: auto;
+}
+
+.Imagendiv3:hover .imagen3 {
+	transform: scale(1.4);
+	opacity: 0,5;
+	cursor: pointer;
+}
+
+.Cuadro4{
+	background: #9B724A;
+	width: 500px;
+	height: 500px;
+	float: left;
+	margin: auto;
+	opacity: 0.8;
+}
+.Titulo2{
+	color: white;
+	font-size: 60px;
+	text-align: center;
+}
+
+.Titulo2:hover{
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 1px black;
+}
+.P3{
+	color: black;
+	font-size: 16px;
+	text-align: left;
+	box-sizing: border-box;
+	padding: 45px 50px;
+	float: left;
+}
+.Leermas3{
+	color:red;
+	font-size: 16px;
+	text-align: right;
+	padding: 50px;
+}
+
+.Linea4{
+	width: 1360px;
+	height: 680px;
+	margin: 0px auto;
+	position: relative;
+}
+
+.Cuadro5{
+	background: blue;
+	width: 340px;
+	height: 340px;
+	float: left;
+	overflow: hidden;
+}
+
+.imagen4{
+	width: 640px;
+	height: 340px;
+	float: left;
+}
+
+.Cuadro6{
+	background: #9B724A;
+	width: 340px;
+	height: 340px;
+	float: left;
+	overflow: hidden;
+	opacity: 0.8;
+}
+
+.P4{
+	color: black;
+	font-size: 16px;
+	text-align: left;
+	box-sizing: border-box;
+	padding: 45px 50px;
+	float: left;
+}
+
+.Cuadro7{
+	background: blue;
+	width: 340px;
+	height: 340px;
+	float: left;
+	overflow: hidden;
+}
+
+.imagen5{
+	width: 640px;
+	height: 340px;
+	float: left;
+}
+
+.Cuadro8{
+	background: #9B724A;
+	width: 340px;
+	height: 340px;
+	float: left;
+	overflow: hidden;
+	opacity: 0.8;
+}
+
+.P5{
+	color: black;
+	font-size: 16px;
+	text-align: left;
+	box-sizing: border-box;
+	padding: 45px 50px;
+	float: left;
+}
+
+.Cuadro9{
+	background: #9B724A;
+	width: 340px;
+	height: 340px;
+	float: left;
+	overflow: hidden;
+	opacity: 0.8;
+}
+
+.P6{
+	color: black;
+	font-size: 16px;
+	text-align: left;
+	box-sizing: border-box;
+	padding: 45px 50px;
+	float: left;
+}
+
+.Cuadro10{
+	background: blue;
+	width: 340px;
+	height: 340px;
+	float: left;
+	overflow: hidden;
+}
+.imagen6{
+	width: 640px;
+	height: 340px;
+	float: left;
+}
+
+.Cuadro11{
+	background: #9B724A;
+	width: 340px;
+	height: 340px;
+	float: left;
+	overflow: hidden;
+	opacity: 0.8;
+}
+
+.P7{
+	color: black;
+	font-size: 16px;
+	text-align: left;
+	box-sizing: border-box;
+	padding: 45px 50px;
+	float: left;
+}
+
+.Cuadro12{
+	background: blue;
+	width: 340px;
+	height: 340px;
+	float: left;
+	overflow: hidden;
+}
+
+.imagen7{
+	width: 640px;
+	height: 340px;
+}
+
+#Cuadro13{
+	width: 1360px;
+	height: 768px;
+	background: black;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.Image1{
+	width: 1360px;
+	height: 768px;
+	opacity: 1;
+	transition: all 1s ease-in-out;
+}
+
+#Cuadro13:hover .Image1{
+	transform: scale(1.4);
+	opacity: 0,5;
+	cursor: pointer;
+}
+
+.Texto2{
+	color: #9B724A;
+	font-size: 150px;
+	position: absolute;
+	top: 0;
+	left: 5%;
+	text-align: center;
+	transition: all 1s ease-in-out;
+}
+
+#Cuadro13:hover .Texto2{
+	color: yellow;
+	font-size: 90px;
+}
+}
